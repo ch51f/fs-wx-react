@@ -16,6 +16,10 @@ const utils = {
 		if(num.toString().length != 11) return false;
 		return this.isMobile(num);
 	},
+	isFullCard(str) {
+		let re = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+		return re.test(str);
+	},
 	isPercent(percent) {
 		if(isNaN(percent)) return false;
 		if(parseFloat(percent) > 100) return false;
