@@ -1,6 +1,6 @@
 {
   "name": "fs-wx-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "房星微信端react前端基础框架",
   "main": "./lib",
   "author": "ch51ff",
