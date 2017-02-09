@@ -1,0 +1,11 @@
+{
+	"name": "fs-wx-react",
+	"version": "0.0.1",
+	"description": "房星微信端react前端基础框架",
+	"main": "index.js",
+	"author": "ch51ff",
+	"license": "ISC",
+	"dependencies": {
+
+	}
+}
