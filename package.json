@@ -1,12 +1,12 @@
 {
   "name": "fs-wx-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "房星微信端react前端基础框架",
   "main": "./lib",
   "author": "ch51ff",
   "license": "ISC",
   "scripts": {
-    "build": "babel src --out-dir lib --source-maps --extensions .es6,.es,.jsx,.js --copy-files"
+    "build": "babel src -d lib --extensions .es6,.es,.jsx,.js --copy-files"
   },
   "dependencies": {},
   "devDependencies": {
