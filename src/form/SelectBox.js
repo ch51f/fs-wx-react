@@ -5,9 +5,9 @@
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
 
-import {ActionSheet, Action} from 'common/dialog/ActionSheet'
-import {ArrowRight} from 'common/svg'
-import Mask from "common/mask/Mask"
+import {ActionSheet, Action} from '../dialog/ActionSheet'
+import {ArrowRight} from '../svg'
+import Mask from "../mask/Mask"
 
 
 class SelectBox extends Component {
